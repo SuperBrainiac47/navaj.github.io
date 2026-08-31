@@ -1,0 +1,269 @@
+<!--Welcome! Read through these code comments for instructions on how to design a code and digital technology narrative project where audiences can learn about who you are and where you're going. Along the way, you'll learn everything you need to know to get started working with code.-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, United States English. Search engines, browsers, and screen readers use this information to deliver content specific to user needs.-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!--The <head> element contains additional information for search engines and browsers.--> 
+<!--The <title> tag controls the name on the browser tab and the next line of code adds a favicon image.-->
+  <title>Navaj Code and Technology Narrative</title>   
+  <link rel="icon" type="image/jpg" href="casual prof.jpg"> 
+<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+  <meta charset="UTF-8">
+<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+<!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
+<body>
+
+<!--Developers refer to this next section as the "hero image. 
+Fill in the blank between <h1>"I am..."</h1> and see what happens.-->
+    
+<!--Glitch a .jpg image by editing the source code. Open the digital image file using “text/edit” on Macs (located in Launchpad/other), "Notepad" on Windows, or "text" on Chromebooks (located in App launcher). Make a test glitch: scroll down to the middle of the document. Copy, cut, move, and paste 10-20 lines of code. Hit save. Then open the original image to see what has changed. Once you understand your reference position, you can begin glitching with more precision.   
+   
+To add your glitch image, simply find and delete the hero.jpg file in the project folder. Then name your glitched image file to the project folder and name it "hero.jpg." If an image is larger than 1200px in width, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Navaj Nune</h1>
+      <h2>My Code and Digital Technology Narrative</h2>
+  </div>
+</div>
+
+<!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.-->
+
+<!--We'll use this first textblock to do a little writing about who we are, where and what we teach, and telling a story about code or a digital technology.-->
+<div class="text-block" style="text-align: left">
+<!--"Align text left/right/center using inline style properties. To improve accessibility, always left-align text longer than three lines.-->
+  <h2>Introduction</h2>
+    <p>My name is Navaj Nune, and I am a sophomore at the University of Pittsburgh majoring in Neuroscience with a minor in Bioengineering. I am pursuing medicine through Pitt’s Guaranteed Admissions Program (GAP). I am from the Tri-Cities in eastern Washington State.<br><br>One of my earliest and most memorable experiences with coding was in sixth grade, when I took an introductory programming class. We were learning very basic HTML and how to build simple websites, but what stood out to me happened on the very first day. My teacher opened a website he had created himself and showed us how much could be changed with just a few lines of code. He demonstrated how changing a single element could completely alter the appearance or behavior of a page. I remember being fascinated by the flexibility of it all and the immense possibilities. I continued exploring programming and eventually learned languages, including Python, R, Java, and JavaScript. More recently, I have been exploring robotics and electronic systems, including working with platforms such as Arduino.</p>
+</div>
+
+    
+<!--Add images of digital technologies that factored in your development. We recommend using Creative Commons licensed images.-->
+<div class="flexbox-container">
+  <div class="row">
+      <div class="column">
+          <img src="technologies 1.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="technologies 2.jpg" alt="describe the image HERE for accessibility purposes">
+      </div>
+      <div class="column">
+          <img src="technologies 3.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="technologies 4.jpg" alt="describe the image HERE for accessibility purposes">
+      </div>
+      <div class="column">
+          <img src="technologies 5.jpg" alt="describe the image HERE for accessibility purposes">
+          <img src="technologies 6.png" alt="describe the image HERE for accessibility purposes">
+      </div>
+  </div>
+      <p><i>Technologies that have figured prominently in my attitudes about code and digital technology.</i></p>
+  </div>
+    
+<!--Flexbox uses rows and column classes to create layouts that scale content across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
+
+<!--Conduct your own Dear Data inquiry…collecting, analyzing, and communicating data (Shout out to Dear Data authors Georgia Lupi and Stefanie Posavec). Use your built-in screen time monitoring features on your phone, tablet, and computer to assist you in tracking your technology use over 5-7 days. Then create a data visualization using colored pencils, crayons, or markers that tells the story of you and your data. Here's our framing question “How do you interact with technology and in what ways? (frequency and distribution of various activities.) For example: What apps get you through your day, what kinds of media are you consuming, what kinds of websites are you using?-->
+
+    <div class="text-block" style="text-align: left">
+  <h2>Everyday Code</h2>
+    <p>Code affects how we think and move through the world by shaping the digital tools we use and influencing how we spend our time and attention. For my Dear Data activity, I created a stacked area graph of my screen time, showing which apps and categories I used and how my usage changed throughout the day. The activity was eye-opening because it made me realize how much time I spend on certain apps and how my usage follows specific patterns at different times. The data accurately captured the amount and distribution of my screen time, although it may have slightly overestimated my actual usage because my phone is sometimes open to an app while I am not actively using it. Overall, the data showed me that certain apps consistently take up more of my attention than others and that my phone use is more structured around certain times of day than I had realized.</p>
+</div>
+    
+<!--Take a picture of your data visualization and use it to replace this image. Control image width using inline styling. Adjust frame using class selector on style.css.-->
+<div>
+  <img class="frame" src="b9f5a8b2-9e44-4ef6-9338-1fa74f994cb7-2 (1).jpg" width="75%" alt="describe the image HERE for accessibility purposes">
+<!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
+    <div class="caption"><i>My Dear Data Visualization</i></div>
+</div>
+
+<!-- Go to style.css page to experiment with "frame class" properties like "background/padding/border/margin." You can also experiment with image filters and "border-radius."-->
+  
+<!--In this section, we'll move from talking about us to how code and digital technology has affected the rhetoric and composition classroom-->
+<div class="text-block" style="text-align: left">
+  <h2>Code and Digital Technology Impact on Education</h2>
+    <p>Code and digital technology have affected the way we learn by making information more accessible and interactive, personalizing everybody's experience to be slightly different. Instead of relying only on textbooks or lectures, we can use online resources, different software and simulations, and most notably AI tools to explore topics in ways that adapt to our learning styles instead of the rigidity of a textbook. At the same time, it is important to understand the role of code and computer science in our digital literacy because technology is completely designed and controlled through code. Understanding the basics of how digital tools work helps us become more informed in the things we use daily. If we can recognize how technology influences what information we see and how we interact with it, it allows us to use these tools more effectively and responsibly.</p>
+    </div>
+
+<!--You can keep or replace this polaroid image with something else. You can find other elements like YouTube video players in the "code repository" at the bottom of this HTML page. Simply copy and paste the code snippets where you want them to appear on your website.-->
+<div class="polaroid">
+  <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%">
+     <div class="polaroid-caption">
+       <p><i>Learning with the aid of technology vs. traditional setting.</i></p>
+     </div>
+</div>
+
+<!--Let's think a little about what we have learned and how we can apply this knowledge and skills moving forward.-->
+<div class="text-block" style="text-align: left">
+  <h2>Moving Forward With Technology</h2>
+    <p>I see code and technology becoming very useful tools to me in my future, both in my daily life and professional endeavors. I am particularly interested in the intersection of technology and the human body in things like brain computer interfaces (BCI) and advanced prosthetic arms that can interpret neural signals, translate them into code, and use that information to control mechanical fingers or other movements. I also find the opposite process fascinating by taking sensory information from a machine, converting the code into electrical signals, and sending those signals to the brain so a person can actually perceive them. This intersection of neuroscience, engineering, and coding is an area I would love to explore further. I also want to learn more about the less commonly discussed digital technologies available to everybody and how they can be applied to solve practical, everyday problems.</p>
+</div>
+
+  <!--Like a hero image, a parallax window provides a degree of animation for your viewer. Replace this image. The "parallax" class properties are controlled on the style.css document.-->
+<div class="parallax"></div>
+  <div class="caption">
+    <p><i>Examples of prosthetic arm that connects body and code/ technology.</i></p>
+</div>
+
+<div class="logo">
+  <img src="favicon.jpg" alt="Open Fuego Flame" width="25%">
+  <p><b>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
+  <p><em>Why make a spark when you can light a fire?</em></p>
+</div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+  <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="" class="button">Go to...</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control image width using inline styling. Adjust "frame" class properties using CSS.)
+
+  <img class="frame" src="fuego.jpg" width="50%" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Frame class properties using CSS.)
+
+  <div class="image-container">
+    <img src="image.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust properties using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/cmocHqJ2UvI?si=_HDwUlW2j4tz6Keb" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+       <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
